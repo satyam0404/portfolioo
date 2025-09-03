@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YOUR NAME — Portfolio</title>
+  <meta name="description" content="Portfolio — SATYAM YADAV | Web Developer / Designer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">SATYAM YADAV</a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Hey — I'm <span class="accent">SATYAM YADAV</span>.</h1>
+          <p class="lead">I build clean, accessible, and delightful web experiences. I'm a Mechanical Engineering student learning full‑stack web development and making cool stuff.</p>
+          <div class="hero-ctas">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Hire me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="SATYAM YADAV profile photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About me</h2>
+        <p>I am a Mechanical Engineering student pursuing a BTech. I love building web apps using HTML, CSS, JavaScript, React and Node. I combine engineering thinking with product focus to ship useful projects.</p>
+        <ul class="meta-list">
+          <li><strong>Education:</strong> B.Tech — Delhi Technological University</li>
+          <li><strong>Interests:</strong> Web dev, DSA, UI/UX, Open source</li>
+          <li><strong>Location:</strong> India</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>Selected projects</h2>
+        <div class="projects-grid">
+          <!-- Project card template: update content & links -->
+          <article class="card">
+            <img src="assets/project1.png" alt="Project 1">
+            <div class="card-body">
+              <h3>Project One</h3>
+              <p>Short description — tech stack: HTML, CSS, JS, React</p>
+              <div class="card-actions">
+                <a href="#" class="link" target="_blank">Live</a>
+                <a href="#" class="link" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project2.png" alt="Project 2">
+            <div class="card-body">
+              <h3>Project Two</h3>
+              <p>Short description — tech stack: Node, Express, MongoDB</p>
+              <div class="card-actions">
+                <a href="#" class="link" target="_blank">Live</a>
+                <a href="#" class="link" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project3.png" alt="Project 3">
+            <div class="card-body">
+              <h3>Project Three</h3>
+              <p>Short description — tech stack: CSS animations, accessibility</p>
+              <div class="card-actions">
+                <a href="#" class="link" target="_blank">Live</a>
+                <a href="#" class="link" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS / Tailwind</div>
+          <div class="skill">JavaScript / TypeScript</div>
+          <div class="skill">React / Next.js</div>
+          <div class="skill">Node.js / Express</div>
+          <div class="skill">Databases (MongoDB)</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to work together? Fill the form or email me at <a href="mailto:satyam991174@gmail.com">satyam991174@gmail.com</a>.</p>
+        <form id="contactForm" class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your mail" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send message</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SATYAM YADAV — Built with ❤️</p>
+      <div class="social">
+        <a href="https://github.com/satyam0404">GitHub</a>
+        <a href="">LinkedIn</a>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

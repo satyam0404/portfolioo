@@ -1,0 +1,41 @@
+<!--
+Project: Personal Portfolio Website (Cynthia-inspired template)
+Files included below (copy each into separate files):
+- index.html
+- css/styles.css
+- js/script.js
+- assets/ (place your images here; update paths in index.html)
+- README (instructions at the bottom)
+-->
+
+
+
+
+
+<!-- ===== css/styles.css ===== -->
+
+
+<!-- ===== js/script.js ===== -->
+
+
+
+<!-- ===== README / Deployment notes ===== -->
+
+# How to use
+1. Create a project folder. Inside it, create folders `css`, `js`, and `assets`.
+2. Copy the `index.html` content into `index.html` at the project root.
+3. Save the CSS into `css/styles.css` and the JS into `js/script.js`.
+4. Put your profile image as `assets/profile.jpg` and project thumbnails as `assets/project1.png`, etc. Add `assets/favicon.png` if you have one.
+5. Edit the text placeholders (YOUR NAME, email, links) to your info.
+
+# Optional improvements
+- Hook up the contact form to EmailJS, Formspree, or your own server with a POST endpoint.
+- Convert the projects area to fetch a JSON list of projects so you can add projects easily.
+- Use optimized images (WebP) and `loading="lazy"` on images.
+- Add accessibility attributes and keyboard navigation for modals (if you add project details modals).
+
+# Hosting
+- For free hosting, push the folder to GitHub and enable GitHub Pages, or deploy to Netlify/Vercel.
+
+
+<!-- End of template -->
